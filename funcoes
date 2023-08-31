@@ -1,0 +1,104 @@
+// this is a js file
+
+
+
+/*function minhafuncao(variavel){;
+    return variavel * 5;
+}
+
+console.log(minhafuncao(2));
+console.log(minhafuncao(10));/*
+
+/*1- a -foi impresso o valor de 5 x 2 e 10 
+
+b - eria executado porem sem mostrar os resultados da funcao
+
+2- a - essa funcao pega um texto que o usuario escreveu no prompt e faz com que ele fique em maisculo, e tambem adicionando cenoura junto ao texto escrito pelo usuario
+
+b - na 1 saira "true" na 2 saira "true" e na 3 saira "false"
+
+*/
+
+
+
+function informacoes (nome, idade, cidade, profissao){
+return " eu sou " + nome + " tenho " + idade + " anos " + " moro em " +cidade + " e sou " + profissao;
+
+
+}
+console.log(informacoes('pedro', 17, 'SL', 'estudante'));
+
+
+
+
+
+
+
+
+
+
+function numeros(numero1, numero2){
+    return numero1 + numero2;
+
+}
+
+console.log (numeros(4,8));
+
+
+
+
+
+
+
+function numeromaior (numero3, numero4){
+    return numero3 >= numero4;
+}
+
+
+
+console.log(numeromaior(6, 8));
+
+    function parimpar(numero5){
+    return (numero5 % 2 ===0)
+}
+
+console.log(parimpar(7));
+
+
+function mensagem (msg){
+
+return msg.length + " "+msg.toUpperCase()
+
+}
+
+console.log(mensagem(prompt("trfycvuygfvhy")));
+
+function soma(soma1, soma2){
+    return soma1 + soma2;
+}
+
+
+
+
+function subtracao(subtracao1, subtracao2){
+return subtracao1 - subtracao2;
+}
+
+
+
+
+function multiplicacao(multiplicacao1, multiplicacao2){
+    return multiplicacao1 * multiplicacao2;
+}
+
+
+
+
+function divisao(divisao1, divisao2){
+    return divisao1 / divisao2
+}
+
+let n1 = Number(prompt("digite um numeros para um teste"));
+let n2 = Number(prompt("digite outro numeros para um teste"));
+
+console.log(soma(n1, n2), subtracao(n1, n2),multiplicacao(n1, n2), divisao(n1, n2));
